@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm test -- --coverage
+        run: npm test -- --watch=false --browsers=ChromeHeadless --code-coverage
 
       - name: SonarCloud Scan
         env:
