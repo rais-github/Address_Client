@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   persons: any[] = [];
   isModalOpen = false;
-
+  title = 'address-book-client';
   openModal() {
     this.isModalOpen = true;
   }
